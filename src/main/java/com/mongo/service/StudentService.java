@@ -10,7 +10,7 @@ import org.springframework.data.domain.Pageable;
 
 
 public interface StudentService {
-
+//service application
     StudentDto addStudent(StudentNewDto studentNewDto);
 
     StudentDto updateStudent(StudentExistingDto studentExistingDto);
